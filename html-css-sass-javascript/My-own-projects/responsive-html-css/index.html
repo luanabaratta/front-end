@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T-shirt</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__container">
+        <h1 class="navbar__logo">t-shirts</h1>
+        <ul class="navbar__itens">
+          <li class="navbar__item"><a href="#" class="btn-hover">Home</a></li>
+          <li class="navbar__item"><a href="#" class="btn-hover">Catálogo</a></li>
+          <li class="navbar__item"><a href="#" class="btn-hover">Contato</a></li>
+          <li class="navbar__item"><a href="#" class="btn">Novidades</a></li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="menu botão mobile" class="navbar__mobile-btn">
+      </div>
+      
+    </nav>
+
+    <header class="header">
+      <div class="header__content">
+        <h2>Camisetas incríveis pra você</h2>
+        <div class="line"></div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="t-shirt">
+        <div class="t-shirt__row">
+          <div class="t-shirt__col">
+            <img
+              src="./img/black-t-shirt-svg.svg"
+              alt="black t-shirt"
+              class="t-shirt__img"
+            />
+            <h4>Black T-shirt</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div class="t-shirt__col">
+            <img
+              src="./img/white-t-shirt-svg.svg"
+              alt="white t-shirt"
+              class="t-shirt__img"
+            />
+            <h4>White T-shirt</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="all-tshirts">
+        <div class="all-tshirts__container">
+          <h2>Camisetas incríveis pra você!</h2>
+          <div class="line"></div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam
+            quia quibusdam incidunt deleniti aspernatur.
+          </p>
+        </div>
+      </section>
+
+      <section class="contact">
+          <h2>Contato</h2>
+          <form class="contact__form">
+              <div class="contact__input">
+                <label for="name">Nome</label>
+                <input type="text" id="name">
+              </div>
+              <div class="contact__input">
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+              </div>
+              <div class="contact__input">
+                <label for="message">Mensagem</label>
+                <textarea id="message" cols="30" rows="10"></textarea>
+              </div>
+              <input type="submit" value="Enviar" class="contact__button">
+          </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Luana B. dos Santos &copy; 2022</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

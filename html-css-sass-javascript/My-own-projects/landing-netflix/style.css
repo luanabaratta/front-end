@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+body {
+    background-color: #030101;
+    font-family: 'Inter';
+    
+}
+
+.header {
+    background-image: url('img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0004;
+    height: 99vh;
+    padding-top: 2rem;
+    background-blend-mode: darken;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.header__titulo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.header__lista {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.header__item {
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.header__item  a {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.header__item a:hover {
+    color: #F3F3F3;
+}
+
+.botao {
+    background-color: #ff1a0e;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.botao:hover {
+    background-color: #f7362c;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.main {
+    margin: 5rem 0;
+}
+
+.dispositivos {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.dispositivos__titulo {
+    margin-bottom: 15px;
+}
+
+.dispositivos__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+

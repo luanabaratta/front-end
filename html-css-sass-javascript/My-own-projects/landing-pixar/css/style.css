@@ -1,0 +1,233 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/**********************************/
+/* 0. Variáveis
+/* 1. Estilos gerais
+/* 2. Menu
+/* 3. Banner
+/* 4. Movies
+/* 5. Valente
+/* 6. Wall-e
+/* 8. Video
+/* 7. Footer
+/**********************************/
+
+/**********************************/
+/* 0. Variáveis
+/**********************************/
+
+:root {
+    --ff-primary: "Nunito", Helvetica, Arial, sans-serif;
+
+    --clr-blue-dark: #1876be;
+	--clr-blue-light: #aaf8fd;
+	--clr-white:#FFFFFF;
+    --clr-gray:#eeeeee;
+}
+
+
+/**********************************/
+/* 1. Estilos gerais
+/**********************************/
+
+body {
+    background: var(--clr-white);
+    font-family: var(--ff-primary);
+}
+
+a,
+a:hover,
+a:active,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    line-height: 22px;
+    text-align: justify;
+}
+
+/**********************************/
+/* 2. Menu
+/**********************************/
+
+.menu-bg {
+    background: var(--clr-white);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.menu__logo {
+    margin: 20px;
+}
+
+.nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.nav__link {
+    margin: 20px 12px;
+}
+
+/**********************************/
+/* 3. Banner
+/**********************************/
+
+.banner {
+    width: 100%;
+}
+
+
+/**********************************/
+/* 4. Movies
+/**********************************/
+
+.movies {
+    width: 960px;
+    margin: 50px auto;
+}
+
+.movies-c {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie {
+    width: 300px;
+    margin: 50px 10px;
+}
+
+.movie__img {
+    width: 300px;
+}
+
+.movie__titulo {
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px 0 5px 0;
+}
+
+
+/**********************************/
+/* 5. Valente
+/**********************************/
+
+.valente {
+    background-color: var(--clr-white);
+    width: 960px;
+    margin: 50px auto;
+}
+
+.valente-c {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.valente__img {
+    flex: 2 1 300px;
+}
+
+
+.valente__titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.valente__content {
+    flex: 3 1 500px;
+    margin-right: 1rem;
+}
+
+/**********************************/
+/* 6. Wall-E
+/**********************************/
+
+.wall {
+    background-color: var(--clr-white);
+    width: 960px;
+    margin: 50px auto;
+}
+
+.wall-c {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wall__img {
+    flex: 2 1 250px;
+}
+
+.wall__img > img {
+    width: 500px;
+}
+
+.wall__titulo {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+    
+}
+
+.wall__content {
+    flex: 3 1 300px;
+}
+
+/**********************************/
+/* 7. Video
+/**********************************/
+
+.videos {
+    background: linear-gradient(var(--clr-blue-dark), var(--clr-blue-light));
+    padding: 50px 0px;
+    margin: 75px 0;
+}
+
+.videos-c {
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.footer {
+   background: var(--clr-gray);
+   text-align: center;
+   padding: 50px;
+}
+
+.footer__logo {
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+
+.copyright {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+
+
+
+
