@@ -1,0 +1,57 @@
+a { text-decoration: none;}
+
+.meu-link, .titulo {
+    background-color: rgb(5, 110, 101);
+    color: white;
+}
+
+h2 {
+    background-color: yellow;
+    color: black;
+}
+
+h1 ~ span {
+    background-color: red;
+    color: white;
+}
+
+input[type="number"] {
+    background-color: goldenrod;
+    color: white;
+    border-radius: 5px;
+    border: 1px rgb(25, 25, 25) solid;
+}
+
+a[href^="contato" i] {
+    background-color: aquamarine;
+    color: #333;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+a:active {
+    color: rgba(87, 202, 45, 0.865);
+}
+
+input:checked ~ a {
+    color: red;
+    text-decoration: line-through;
+}
+
+input:disabled {
+    background-color: grey;
+}
+
+input:focus {
+    background-color: rgb(35, 27, 17);
+}
+
+ol li:nth-child(even) {
+    background-color: #444;
+    color: white;
+}
+
+h3:not(.abc) {
+    background-color: #000;
+    color: white;
+}

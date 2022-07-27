@@ -1,0 +1,20 @@
+/*@font-face {
+    font-family: Pacifico;
+    src: url("font/pacifico-regular.ttf");
+}*/
+
+p {
+    font-size: 16px;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    text-indent: 15px;
+    text-align: justify;
+    text-transform: none;
+    text-shadow: 1px 1px 2px rgb(11, 154, 154);
+    line-height: 1.5;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    word-break: normal;
+    white-space: pre-line;
+}
